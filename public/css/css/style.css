@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700&display=swap');
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url("img/achtergrond.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1,
+p {
+	color: black;
+}
+
+
+/*HEADER*/
+
+.container {}
+
+
+/*SIDEBAR*/
+
+.aside {
+	float: right;
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.aside a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.aside a:hover {
+	color: red;
+}
+
+
+/*NAVBARCODE*/
+
+.navbar {
+	width: 100vw;
+	height: 65px;
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+	box-shadow: 2px 2px 25px black;
+}
+
+.navbar img {
+	float: left;
+	height: 200px;
+	width: 240px;
+}
+
+.pages button {
+	margin-top: 15px;
+	padding: 4px;
+	background-color: black;
+	border: 0;
+	color: #fff;
+	font-size: 25px;
+	margin-left: 45px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+.pages button:hover {
+	color: red;
+}
+
+
+/*SEARCH BAR*/
+
+.search {
+	float: right;
+	margin-top: -50px;
+	margin-right: 50px;
+	font-size: 35px;
+}
+.search a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100px;
+	background-color: #FF3333;
+	color: #FF333;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* Seacrh LIST */
+
+h3 {
+	font-size: 15px;
+	color: white;
+}
+
+
+/*CONTENT BOX*/
+
+.content {
+	width: 60%;
+	height: auto;
+	margin-left: 22em;
+	margin-right: auto;
+	background-color: white;
+	margin-top: 6.4em;
+	padding: 1em;
+}
+
+.stadion {
+	width: 80%;
+	height: auto;
+	margin-left: 9em;
+	margin-right: auto;
+	background-color: white;
+	margin-top: 8.4em;
+	padding: 1em;
+}
+
+
+/* CONTENT STADION INHOUD */
+
+.arena {
+	float: right;
+	padding-right: 5%;
+	/* padding-left: 21%;
+padding-bottom: 12em;
+padding-top: 1%; */
+}
+
+.titel {
+	text-align: center;
+	font-size: 280%;
+}
+
+
+/* MODAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	grid-gap: 1em;
+	padding: 1.2em;
+	justify-items: center;
+}
+
+.wrapper .modaalContent {
+	display: none;
+}
+
+img,
+form {
+	/* box-shadow: 0 0 1em rgba(0, 0, 0, 0.5); */
+}
+
+img.modaal-knop {
+	transition: transform .3s ease-out, .4s ease-out;
+}
+
+.duurtijd {
+	float: right;
+	padding-right: 5px;
+	font-style: italic;
+}
+
+img.modaal-knop:hover {
+	transform: scale(1.1);
+}
+
+.modaal-knop {
+	cursor: pointer;
+	color: #fff;
+}
+
+.modaal-knop:hover {
+	color: white;
+}
+
+.sluit-knop {
+	width: 0.5em;
+	margin-top: -0.5em;
+	justify-self: end;
+	font-size: 2em;
+	font-weight: 900;
+	transform: translateX(.5em);
+	border: 0;
+	background-color: #FFF;
+}
+
+.sluit-knop:hover {
+	color: grey;
+}
+
+#validatie {
+	padding-top: 18em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modaal-achtergrond {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+.modaal {
+	max-width: 80%;
+	padding: 2em;
+	border-radius: 1em;
+	background-color: #fff;
+	max-height: 100vh;
+	overflow-y: auto;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-row-gap: 1em;
+	animation: opkomen 1s ease-in-out forwards;
+}
+
+@keyframes opkomen {
+	0% {
+		transform: scale(0)
+	}
+	20% {
+		transform: scale(1.2);
+	}
+	70% {
+		transform: scale(0.9997);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+/* EIND MODAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL */
