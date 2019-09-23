@@ -23,9 +23,6 @@
 |           | De schrijver | wil de hoofdfoto kunnen uploaden van een verhaal                 | hij/zij een duidelijk beeld bij het verhaal kan geven      | m          |        | 0,5  |        |
 |           | De schrijver | wil de hoofdfoto aanpassen                                       | hij/zij een andere foto kan toevoegen.                     | m          |        | 0,5  |        |
 |           | De schrijver | reacties kunnen beheren                                          | hij/zij ongepaste berichten kan verwijderen         m      |            |        | 0    | N.V.T. |
-
-Secure
-
 |           | gebruiker | wil een anoniem account kunnen maken                                                       | hij/zij alleen infomatie kan laten zien aan bevoegden                                 | m           |        | 2    |        |
 |           | gebruiker | wil een bericht kunnen verwijderen waar                                                    | hij/zij geen spijt meer heeft                                                         | m           |        | 2    |        |
 |           | gebruiker | wil een veilige zoek machine                                                               | hij/zij geen slcahtoffer kan zijn van injectie code                                   | m           |        | 2    |        |
